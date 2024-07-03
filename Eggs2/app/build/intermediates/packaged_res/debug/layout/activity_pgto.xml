@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6CEA6"
+    tools:context=".Pgto">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="serif"
+        android:text="O VALOR DA ENCOMENDA DEVE SER PAGO NO ATO DA RETIRADA EM DINHEIRO OU ATRAVÉS DO PIX: XXXXX@XXXX.COM"
+        android:textAlignment="center"
+        android:textColor="#47525E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="668dp"
+        android:fontFamily="serif"
+        android:text="*PARA VERIFICAR A POSSIBILIDADE DE PARCELAMENTO ENTRAR EM CONTATO COM O PRODUTOR"
+        android:textAlignment="center"
+        android:textColor="#47525E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="492dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:text="Nome:"
+        android:textColor="#47525E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="404dp"
+        android:fontFamily="serif"
+        android:text="Por favor, informe seu nome completo, telefone para contato e, se possível, uma referência (Maria da Feira, João filho da Sandra, etc..."
+        android:textColor="#47525E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:inputType="text"
+        android:text="Contato:"
+        android:textColor="#47525E"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <Button
+        android:id="@+id/btnPGTO"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="592dp"
+        android:backgroundTint="#77D353"
+        android:fontFamily="serif"
+        android:text="Continuar"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#47525E"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#F95F62"
+        app:strokeWidth="20px" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="156dp"
+        android:drawableBottom="@drawable/frame"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

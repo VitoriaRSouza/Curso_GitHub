@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6CEA6"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="337dp"
+        android:layout_height="65dp"
+        android:fontFamily="serif"
+        android:text="ENCOMENDAS DE OVO DE PÁSCOA"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#47525E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="215dp"
+        android:layout_height="54dp"
+        android:fontFamily="serif"
+        android:text="VOCÊ ESTÁ ENCOMENDADO OVOS DE PÁSCOA COM:"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#47525E"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="261dp"
+        android:layout_height="73dp"
+        android:fontFamily="serif"
+        android:text="NOME DO PRODUTOR"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#47525E"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.513" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="119dp"
+        android:layout_height="38dp"
+        android:fontFamily="serif"
+        android:text="ID: 123456789"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#47525E"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.593" />
+
+    <Button
+        android:id="@+id/bContinuar"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="180dp"
+        android:backgroundTint="#77D353"
+        android:fontFamily="serif"
+        android:text="Continuar"
+        android:textColor="#47525E"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="#F95F62"
+        app:strokeWidth="20px" />
+
+    <Button
+        android:id="@+id/bContinuar2"
+        android:layout_width="355dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#E6CEA6"
+        android:fontFamily="serif"
+        android:text="CASO ESTE NÃO SEJA O SEU PRODUTOR, CLIQUE AQUI E INSIRA O ID INFORMADO POR ELE "
+        android:textColor="#47525E"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="20px" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Precos">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/whatsapp_image_2023_09_18_at_00_07_53"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btnVoltaPreco"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="636dp"
+        android:backgroundTint="#77D353"
+        android:textColor="#47525E"
+        android:textStyle="bold"
+        app:icon="?attr/homeAsUpIndicator"
+        app:iconSize="50dp"
+        app:iconTint="#47525E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#F95F62"
+        app:strokeWidth="15px" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
